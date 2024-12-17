@@ -9,7 +9,7 @@ export const Todo = () =>{
      */
     const [todoText, setTodoText] = useState("");// 入力欄のState（初期値："",現状変数：todoText, 更新関数：setTodoText）
     const [incompleteTodos, setIncompleteTodos] = useState(["TODOです1","TODOです2"]); 
-    const [completeTodos, setCompleteTodos] = useState(["TODOでした1","TODOでした2"]); 
+    const [completeTodos, setCompleteTodos] = useState(["TODOでした1","TODOでした3"]); 
 
 
     /**
